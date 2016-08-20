@@ -1,0 +1,54 @@
+.content {
+  width: 300px;
+}
+.content h1 {
+  padding: 10%;
+}
+button {
+  border: 0;
+}
+.left, .center, .right {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  font-size: 56px;
+}
+
+/* OUTSIDE RESET */
+.outside {
+  width: inherit;
+}
+#outcome {
+  font-size: 36px;
+  display: block;
+}
+#reset {
+  font-size: 24px;
+  display: block;
+}
+
+/* BUTTON BORDER TABLE */
+.top, .middle, .bottom {
+  margin: 0;
+  display: block;
+  border-top: 10px solid gray;
+}
+.left, .center, .right {
+  display: inline;
+  margin: 0;
+  border-left: 10px solid gray;
+  float: left;
+}
+.top {
+  border-top: 10px solid white;
+}
+.bottom {
+  border-bottom: 10px solid white;
+}
+.left {
+  border-left: 10px solid white;
+}
+.right {
+  border-right: 10px solid white;
+}
